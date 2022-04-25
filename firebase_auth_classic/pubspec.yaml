@@ -1,0 +1,76 @@
+name: firebase_auth_classic
+description: Simple Firebase auth with Bloc state management and  clean architecture.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  another_flushbar: ^1.10.28
+  auto_route: ^3.2.4
+  cloud_firestore: ^3.1.12
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  firebase_auth: ^3.3.14
+  firebase_core: ^1.14.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_native_splash: ^2.1.5
+  freezed: ^1.1.1
+  freezed_annotation: ^1.1.0
+  get_it: ^7.2.0
+  injectable: ^1.5.3
+  json_annotation: ^4.4.0
+  loading_animation_widget: ^1.1.0+3
+  rxdart: ^0.27.3
+  uuid: ^3.0.6
+
+dev_dependencies:
+  auto_route_generator: ^3.2.3
+  build_runner: ^2.1.8
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^1.5.3
+  json_serializable: ^6.1.6
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Light.ttf
+          weight: 300
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true

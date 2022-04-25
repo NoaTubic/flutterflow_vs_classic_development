@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "808043827714",
+    "project_id": "fir-auth-classic",
+    "storage_bucket": "fir-auth-classic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808043827714:android:f378bc02b08858ba514d1b",
+        "android_client_info": {
+          "package_name": "agency.q.firebase_auth_classic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808043827714-thangceedek3fe3b9r08156rgq0fc9qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaZF8iCy9MedqnsdutALoqmuHdALR6jUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808043827714-thangceedek3fe3b9r08156rgq0fc9qs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "808043827714-7hgipfr99mcsb4v3r6nd57ett20sop7n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "agency.q.toDoClassic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
