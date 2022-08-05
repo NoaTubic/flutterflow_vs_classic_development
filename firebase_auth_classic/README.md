@@ -1,6 +1,5 @@
 # firebase_auth_classic
 
-Simple To Do app using Firebase Auth and Firestore with Riverpod following DDD architecture.
+Simple Firebase Auth and Firestore with Bloc state management following DDD architecture.
 
-## Getting Started
 
